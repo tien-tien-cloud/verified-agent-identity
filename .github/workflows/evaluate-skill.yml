@@ -38,4 +38,4 @@ jobs:
 
       - name: Bước 3 - Xem link xác minh Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "ha.vinh1119@gmail.com", "description": "dancayairdrop AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "ha.vinh1119@gmail.com", "description": "ha.vinh1119@gmail.com AI Agent"}'
