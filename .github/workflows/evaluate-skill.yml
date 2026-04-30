@@ -4,11 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'vinh.duyen19@gmail.com'
+        description: 'ha.vinh1119@gmail.com
+'
         required: true
-        default: 'vinh.duyen19@gmail.com'
+        default: 'ha.vinh1119@gmail.com
+'
       agent_description:
-        description: 'vinh.duyen19@gmail.com'
+        description: 'ha.vinh1119@gmail.com
+'
         required: true
         default: 'finder AI Agent'
 
@@ -38,4 +41,6 @@ jobs:
 
       - name: Bước 3 - Xem link xác minh Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "vinh.duyen19@gmail.com", "description": "vinh.duyen19@gmail.com AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "ha.vinh1119@gmail.com
+", "description": "ha.vinh1119@gmail.com
+ AI Agent"}'
