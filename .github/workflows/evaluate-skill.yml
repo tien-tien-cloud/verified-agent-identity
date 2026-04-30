@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'dancayairdrop'
+        description: 'vinh'
         required: true
-        default: 'dancayairdrop'
+        default: 'vinh'
       agent_description:
-        description: 'dancayairdrop'
+        description: 'vinh'
         required: true
         default: 'finder AI Agent'
 
@@ -38,4 +38,4 @@ jobs:
 
       - name: Bước 3 - Xem link xác minh Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "ha.vinh1119@gmail.com", "description": "ha.vinh1119@gmail.com AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "vinh", "description": "vinh AI Agent"}'
